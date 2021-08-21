@@ -52,6 +52,11 @@ nav ul li {
   height: 20%;
 }
 
+nav li a {
+  position: relative;
+  top: 45%;
+}
+
 nav li:nth-of-type(1) {
   background-color: var(--navColor1);
 }
