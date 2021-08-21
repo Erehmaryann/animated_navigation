@@ -55,6 +55,12 @@ nav ul li {
 nav li a {
   position: relative;
   top: 45%;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
 }
 
 nav li:nth-of-type(1) {
