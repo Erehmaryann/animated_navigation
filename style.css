@@ -24,6 +24,7 @@ body {
 /* Overlay */
 .overlay {
   position: fixed;
+  z-index: 9;
 }
 
 /* --- Menu Bars ------------------------------------ */
