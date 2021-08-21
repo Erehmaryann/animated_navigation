@@ -40,6 +40,13 @@ nav ul {
   padding: 0;
 }
 
+nav ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  list-style: none;
+}
+
 nav li:nth-of-type(1) {
   background-color: var(--navColor1);
 }
