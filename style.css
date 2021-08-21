@@ -21,6 +21,11 @@ body {
 
 /* --- Navigation Menu ------------------------------ */
 
+/* Overlay */
+.overlay {
+  position: fixed;
+}
+
 /* --- Menu Bars ------------------------------------ */
 
 .menu-bars {
