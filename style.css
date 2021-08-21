@@ -40,6 +40,10 @@ nav ul {
   padding: 0;
 }
 
+nav li:nth-of-type(1) {
+  background-color: var(--navColor1);
+}
+
 /* --- Menu Bars ------------------------------------ */
 
 .menu-bars {
