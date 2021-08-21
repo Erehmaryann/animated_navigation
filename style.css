@@ -63,6 +63,10 @@ nav li a {
   text-align: center;
 }
 
+nav li a:hover {
+  transform: scale(1.2);
+}
+
 nav li:nth-of-type(1) {
   background-color: var(--navColor1);
 }
