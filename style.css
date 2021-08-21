@@ -32,6 +32,12 @@ body {
   background: rgba(0, 0, 0, 0.7);
 }
 
+/* Nav Menu Items */
+nav,
+nav ul {
+  height: 100vh;
+}
+
 /* --- Menu Bars ------------------------------------ */
 
 .menu-bars {
