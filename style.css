@@ -113,8 +113,12 @@ nav li:nth-of-type(5) {
   background-color: var(--navColor5);
 }
 
-/* --- Menu Bars ------------------------------------ */
+/* Slide in animation with delay for each nav item */
+.slide-in-1 {
+  animation: slide-in 0.4s linear 0.2 both;
+}
 
+/* --- Menu Bars ------------------------------------ */
 .menu-bars {
   position: fixed;
   top: 1rem;
