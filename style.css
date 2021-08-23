@@ -35,8 +35,7 @@ body {
 
 .overlay-slide-right {
   transition: all 0.4s ease-in-out;
-  transform: translateX(100vw);
-  /* transform: translateX(100vw); */
+  transform: translateX(0vw);
 }
 
 .overlay-slide-left {
