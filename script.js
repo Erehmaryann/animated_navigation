@@ -9,6 +9,7 @@ const nav5 = document.querySelector("#nav5");
 // Nav toggler
 const toggleNav = () => {
   // Toggle: Menu Bars Open/CLosed
+  menuBars.classList.toggle("change");
 };
 
 // Add event listeners
