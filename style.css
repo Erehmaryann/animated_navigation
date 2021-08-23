@@ -134,6 +134,15 @@ nav li:nth-of-type(5) {
   animation: slide-in 0.4s linear 1s both;
 }
 
+@keyframes slide-in {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
 /* --- Menu Bars ------------------------------------ */
 .menu-bars {
   position: fixed;
