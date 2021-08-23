@@ -11,3 +11,4 @@ const toggleNav = () => {};
 
 // Add event listeners
 menuBars.addEventListener("click", toggleNav);
+nav1.addEventListener("click", toggleNav);
