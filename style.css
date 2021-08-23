@@ -126,6 +126,10 @@ nav li:nth-of-type(5) {
   animation: slide-in 0.4s linear 0.6 both;
 }
 
+.slide-in-4 {
+  animation: slide-in 0.4s linear 0.8 both;
+}
+
 /* --- Menu Bars ------------------------------------ */
 .menu-bars {
   position: fixed;
