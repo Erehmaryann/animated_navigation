@@ -1,10 +1,10 @@
 const menuBars = document.querySelector("#menu-bars");
 const overlay = document.querySelector("#overlay");
-const nav1 = document.querySelector("#nav1");
-const nav2 = document.querySelector("#nav2");
-const nav3 = document.querySelector("#nav3");
-const nav4 = document.querySelector("#nav4");
-const nav5 = document.querySelector("#nav5");
+const nav1 = document.querySelector("#nav-1");
+const nav2 = document.querySelector("#nav-2");
+const nav3 = document.querySelector("#nav-3");
+const nav4 = document.querySelector("#nav-4");
+const nav5 = document.querySelector("#nav-5");
 
 // Nav toggler
 const toggleNav = () => {
@@ -31,6 +31,17 @@ const toggleNav = () => {
     // Animate Out the Overlay
     overlay.classList.remove("overlay-slide-right");
     overlay.classList.add("overlay-slide-left");
+    // Animate out the nav items
+    nav1.classList.remove("slide-in-1");
+    nav1.classList.add("slide-out-1");
+    nav2.classList.remove("slide-in-2");
+    nav2.classList.add("slide-out-2");
+    nav3.classList.remove("slide-in-3");
+    nav3.classList.add("slide-out-3");
+    nav4.classList.remove("slide-in-4");
+    nav4.classList.add("slide-out-4");
+    nav5.classList.remove("slide-in-5");
+    nav5.classList.add("slide-out-5");
   }
 };
 
