@@ -33,6 +33,11 @@ body {
   transform: translateX(-100vw);
 }
 
+.overlay-slide-right {
+  transition: all 0.4s ease-in-out;
+  transform: translateX(100vw);
+}
+
 /* Nav Menu Items */
 nav,
 nav ul {
